@@ -1,0 +1,12 @@
+With MeshSettings
+     With .ItemMeshSettings ("solid$dipoles:dipole_3")
+          .SetMeshType "All" 
+          .Set "Transform", "1", "0", "0", "0", "6.07153e-017", "-1", "0", "1", "6.07153e-017" 
+     End With
+End With
+With MeshSettings
+     With .ItemMeshSettings ("solid$dipoles:dipole_4")
+          .SetMeshType "All" 
+          .Set "Transform", "1", "0", "0", "0", "6.07153e-017", "-1", "0", "1", "6.07153e-017" 
+     End With
+End With
