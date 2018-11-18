@@ -23,11 +23,8 @@ With Units
     .Conductance "Siemens"
     .Capacitance "PikoF"
 End With
-
 '----------------------------------------------------------------------------
-
 Plot.DrawBox True
-
 With Background
      .Type "Normal"
      .Epsilon "1.0"
@@ -39,7 +36,6 @@ With Background
      .ZminSpace "0.0"
      .ZmaxSpace "0.0"
 End With
-
 With Boundary
      .Xmin "expanded open"
      .Xmax "expanded open"
@@ -51,33 +47,24 @@ With Boundary
      .Ysymmetry "none"
      .Zsymmetry "none"
 End With
-
 ' switch on FD-TET setting for accurate farfields
-
 FDSolver.ExtrudeOpenBC "True"
-
 Mesh.FPBAAvoidNonRegUnite "True"
 Mesh.ConsiderSpaceForLowerMeshLimit "False"
 Mesh.MinimumStepNumber "5"
-
 With MeshSettings
      .SetMeshType "Hex"
      .Set "RatioLimitGeometry", "20"
 End With
-
 With MeshSettings
      .SetMeshType "HexTLM"
      .Set "RatioLimitGeometry", "20"
 End With
-
 PostProcess1D.ActivateOperation "vswr", "true"
 PostProcess1D.ActivateOperation "yz-matrices", "true"
-
 '----------------------------------------------------------------------------
-
 'set the frequency range
 Solver.FrequencyRange "100", "200"
-
 Dim sDefineAt As String
 sDefineAt = "100;127;200"
 Dim sDefineAtName As String
@@ -88,15 +75,12 @@ Dim aFreq() As String
 aFreq = Split(sDefineAt, ";")
 Dim aNames() As String
 aNames = Split(sDefineAtName, ";")
-
 Dim nIndex As Integer
 For nIndex = LBound(aFreq) To UBound(aFreq)
-
 Dim zz_val As String
 zz_val = aFreq (nIndex)
 Dim zz_name As String
 zz_name = sDefineAtToken & aNames (nIndex)
-
 ' Define E-Field Monitors
 With Monitor
     .Reset
@@ -107,7 +91,6 @@ With Monitor
     .Frequency zz_val
     .Create
 End With
-
 ' Define H-Field Monitors
 With Monitor
     .Reset
@@ -118,7 +101,6 @@ With Monitor
     .Frequency zz_val
     .Create
 End With
-
 ' Define Farfield Monitors
 With Monitor
     .Reset
@@ -129,24 +111,17 @@ With Monitor
     .ExportFarfieldSource "False"
     .Create
 End With
-
 Next
-
 '----------------------------------------------------------------------------
-
 With MeshSettings
      .SetMeshType "Hex"
      .Set "Version", 1%
 End With
-
 With Mesh
      .MeshType "PBA"
 End With
-
 'set the solver type
 ChangeSolverType("HF Time Domain")
-
-
 
 '@ define material: Aluminum
 
@@ -255,14 +230,12 @@ With Material
 .Transparentoutline "False" 
 .Transparency "0" 
 .Create
-End With 
-
+End With
 
 '@ new component: component1
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Component.New "component1" 
-
+Component.New "component1"
 
 '@ define cylinder: component1:rod1
 
@@ -280,8 +253,7 @@ With Cylinder
      .Ycenter "0" 
      .Segments "0" 
      .Create 
-End With 
-
+End With
 
 '@ define units
 
@@ -297,8 +269,7 @@ With Units
      .Conductance "Siemens" 
      .Capacitance "PikoF" 
      .Inductance "NanoH" 
-End With 
-
+End With
 
 '@ paste structure data: 1
 
@@ -311,9 +282,7 @@ With SAT
      .ScaleToUnit "True" 
      .Curves "False" 
      .Read 
-End With 
-
-
+End With
 
 '@ transform: rotate component1:rod1_1
 
@@ -329,14 +298,12 @@ With Transform
      .Repetitions "1" 
      .MultipleSelection "False" 
      .Transform "Shape", "Rotate" 
-End With 
-
+End With
 
 '@ pick edge
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Pick.PickEdgeFromId "component1:rod1_1", "1", "1" 
-
+Pick.PickEdgeFromId "component1:rod1_1", "1", "1"
 
 '@ transform: translate component1:rod1
 
@@ -352,8 +319,7 @@ With Transform
      .Repetitions "1" 
      .MultipleSelection "False" 
      .Transform "Shape", "Translate" 
-End With 
-
+End With
 
 '@ transform: translate component1:rod1_1
 
@@ -369,8 +335,7 @@ With Transform
      .Repetitions "1" 
      .MultipleSelection "False" 
      .Transform "Shape", "Translate" 
-End With 
-
+End With
 
 '@ transform: translate component1:rod1_1
 
@@ -386,26 +351,22 @@ With Transform
      .Repetitions "1" 
      .MultipleSelection "False" 
      .Transform "Shape", "Translate" 
-End With 
-
+End With
 
 '@ clear picks
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Pick.ClearAllPicks 
-
-
-'@ pick edge
-
-'[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Pick.PickEdgeFromId "component1:rod1", "1", "1" 
-
+Pick.ClearAllPicks
 
 '@ pick edge
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
-Pick.PickEdgeFromId "component1:rod1_1", "1", "1" 
+Pick.PickEdgeFromId "component1:rod1", "1", "1"
 
+'@ pick edge
+
+'[VERSION]2015.0|24.0.2|20150116[/VERSION]
+Pick.PickEdgeFromId "component1:rod1_1", "1", "1"
 
 '@ define discrete face port: 1
 
@@ -427,8 +388,7 @@ With DiscreteFacePort
      .UseProjection "False" 
      .ReverseProjection "False" 
      .Create 
-End With 
-
+End With
 
 '@ define monitor: e-field (f=137)
 
@@ -446,8 +406,7 @@ With Monitor
      .UseSubvolume "False" 
      .SetSubvolume  "0.0",  "0.0",  "0.0",  "0.0",  "0.0",  "0.0" 
      .Create 
-End With 
-
+End With
 
 '@ define monitor: h-field (f=137)
 
@@ -465,8 +424,7 @@ With Monitor
      .UseSubvolume "False" 
      .SetSubvolume  "0.0",  "0.0",  "0.0",  "0.0",  "0.0",  "0.0" 
      .Create 
-End With 
-
+End With
 
 '@ define farfield monitor: farfield (f=137)
 
@@ -484,14 +442,12 @@ With Monitor
      .ExportFarfieldSource "False" 
      .SetSubvolume  "0.0",  "0.0",  "0.0",  "0.0",  "0.0",  "0.0" 
      .Create 
-End With 
-
+End With
 
 '@ define time domain solver parameters
 
 '[VERSION]2015.0|24.0.2|20150116[/VERSION]
 Mesh.SetCreator "High Frequency" 
-
 With Solver 
      .Method "Hexahedral"
      .CalculationType "TD-S"
@@ -508,7 +464,6 @@ With Solver
      .SuperimposePLWExcitation "False"
      .UseSensitivityAnalysis "False"
 End With
-
 
 '@ farfield plot options
 
@@ -534,11 +489,11 @@ With FarfieldPlot
      .SetColorByValue "True" 
      .DrawStepLines "False" 
      .DrawIsoLongitudeLatitudeLines "False" 
-     .ShowStructure "False" 
+     .ShowStructure "True" 
      .SetStructureTransparent "False" 
-     .SetFarfieldTransparent "False" 
+     .SetFarfieldTransparent "True" 
      .SetSpecials "enablepolarextralines" 
-     .SetPlotMode "Directivity" 
+     .SetPlotMode "Realized Gain" 
      .Distance "1" 
      .UseFarfieldApproximation "True" 
      .SetScaleLinear "False" 
@@ -549,13 +504,13 @@ With FarfieldPlot
      .SetFixPlotMaximumValue "1" 
      .SetInverseAxialRatio "False" 
      .SetAxesType "user" 
-     .SetAntennaType "unknown" 
+     .SetAntennaType "directional_circular" 
      .Phistart "1.000000e+000", "0.000000e+000", "0.000000e+000" 
      .Thetastart "0.000000e+000", "0.000000e+000", "1.000000e+000" 
      .PolarizationVector "0.000000e+000", "1.000000e+000", "0.000000e+000" 
-     .SetCoordinateSystemType "spherical" 
+     .SetCoordinateSystemType "ludwig3" 
      .SetAutomaticCoordinateSystem "True" 
-     .SetPolarizationType "Linear" 
+     .SetPolarizationType "Circular" 
      .SlantAngle 0.000000e+000 
      .Origin "bbox" 
      .Userorigin "0.000000e+000", "0.000000e+000", "0.000000e+000" 

@@ -498,110 +498,6 @@ ZRef1(1).sig
 
 Frequency / MHz
 Impedance in Ohm
-:6:1000
-visible
-internal
-persistent
-noresult
-0
-XYSIGNAL2
-user
-1D Results\Materials\Aluminum\Particles\SEY\Elastic
-Aluminum_SEE_SEY_Elastic.sig
-SEY - Elastic
-Incident energy in eV  @  Incident Angle 0°
-SEY - Furman
-:6:1000
-visible
-internal
-persistent
-noresult
-0
-XYSIGNAL2
-user
-1D Results\Materials\Aluminum\Particles\SEY\Rediff
-Aluminum_SEE_SEY_Rediff.sig
-SEY - Rediff
-Incident energy in eV  @  Incident Angle 0°
-SEY - Furman
-:6:1000
-visible
-internal
-persistent
-noresult
-0
-XYSIGNAL2
-user
-1D Results\Materials\Aluminum\Particles\SEY\True
-Aluminum_SEE_SEY_True.sig
-SEY - True
-Incident energy in eV  @  Incident Angle 0°
-SEY - Furman
-:6:1000
-visible
-internal
-persistent
-noresult
-0
-XYSIGNAL2
-user
-1D Results\Materials\Aluminum\Particles\SEY\Total
-Aluminum_SEE_SEY_Total.sig
-SEY - Total
-Incident energy in eV  @  Incident Angle 0°
-SEY - Furman
-:6:1000
-visible
-internal
-persistent
-noresult
-0
-XYSIGNAL2
-user
-1D Results\Materials\Aluminum\Particles\PDF\Elastic
-Aluminum_SEE_PDF_Elastic.sig
-PDF - Elastic
-Secondary electron energy in eV  @  Incident energy 100 eV and angle 0°
-PDF - Furman
-:6:1000
-visible
-internal
-persistent
-noresult
-0
-XYSIGNAL2
-user
-1D Results\Materials\Aluminum\Particles\PDF\Rediff
-Aluminum_SEE_PDF_Rediff.sig
-PDF - Rediff
-Secondary electron energy in eV  @  Incident energy 100 eV and angle 0°
-PDF - Furman
-:6:1000
-visible
-internal
-persistent
-noresult
-0
-XYSIGNAL2
-user
-1D Results\Materials\Aluminum\Particles\PDF\True
-Aluminum_SEE_PDF_True.sig
-PDF - True
-Secondary electron energy in eV  @  Incident energy 100 eV and angle 0°
-PDF - Furman
-:6:1000
-visible
-internal
-persistent
-noresult
-0
-XYSIGNAL2
-user
-1D Results\Materials\Aluminum\Particles\PDF\Total
-Aluminum_SEE_PDF_Total.sig
-PDF - Total
-Secondary electron energy in eV  @  Incident energy 100 eV and angle 0°
-PDF - Furman
 :8:1000
 visible
 internal
@@ -1047,3 +943,120 @@ signal_default.sig
 
 Time / ns
 Excitation: default
+:6:1000
+visible
+internal
+persistent
+noresult
+0
+XYSIGNAL2
+user
+1D Results\Materials\Aluminum\Particles\SEY\Elastic
+Aluminum_SEE_SEY_Elastic.sig
+SEY - Elastic
+Incident energy in eV  @  Incident Angle 0°
+SEY - Furman
+:6:1000
+visible
+internal
+persistent
+noresult
+0
+XYSIGNAL2
+user
+1D Results\Materials\Aluminum\Particles\SEY\Rediff
+Aluminum_SEE_SEY_Rediff.sig
+SEY - Rediff
+Incident energy in eV  @  Incident Angle 0°
+SEY - Furman
+:6:1000
+visible
+internal
+persistent
+noresult
+0
+XYSIGNAL2
+user
+1D Results\Materials\Aluminum\Particles\SEY\True
+Aluminum_SEE_SEY_True.sig
+SEY - True
+Incident energy in eV  @  Incident Angle 0°
+SEY - Furman
+:6:1000
+visible
+internal
+persistent
+noresult
+0
+XYSIGNAL2
+user
+1D Results\Materials\Aluminum\Particles\SEY\Total
+Aluminum_SEE_SEY_Total.sig
+SEY - Total
+Incident energy in eV  @  Incident Angle 0°
+SEY - Furman
+:6:1000
+visible
+internal
+persistent
+noresult
+0
+XYSIGNAL2
+user
+1D Results\Materials\Aluminum\Particles\PDF\Elastic
+Aluminum_SEE_PDF_Elastic.sig
+PDF - Elastic
+Secondary electron energy in eV  @  Incident energy 100 eV and angle 0°
+PDF - Furman
+:6:1000
+visible
+internal
+persistent
+noresult
+0
+XYSIGNAL2
+user
+1D Results\Materials\Aluminum\Particles\PDF\Rediff
+Aluminum_SEE_PDF_Rediff.sig
+PDF - Rediff
+Secondary electron energy in eV  @  Incident energy 100 eV and angle 0°
+PDF - Furman
+:6:1000
+visible
+internal
+persistent
+noresult
+0
+XYSIGNAL2
+user
+1D Results\Materials\Aluminum\Particles\PDF\True
+Aluminum_SEE_PDF_True.sig
+PDF - True
+Secondary electron energy in eV  @  Incident energy 100 eV and angle 0°
+PDF - Furman
+:6:1000
+visible
+internal
+persistent
+noresult
+0
+XYSIGNAL2
+user
+1D Results\Materials\Aluminum\Particles\PDF\Total
+Aluminum_SEE_PDF_Total.sig
+PDF - Total
+Secondary electron energy in eV  @  Incident energy 100 eV and angle 0°
+PDF - Furman
+:8:1000
+hidden
+internal
+solverstart
+noresult
+0
+XYSIGNAL2
+farfield cartesian
+Farfields\farfield (f=137) [1]\farfield (f=137) [1]
+farfield (f=137) [1].sig
+dB
+Theta / Degree
+Farfield Realized Gain Abs (Phi=90)
