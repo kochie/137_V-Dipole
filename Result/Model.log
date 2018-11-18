@@ -1,0 +1,150 @@
+Defined reference frequency for open boundary condition (150 MHz) is larger
+than the lowest relevant system frequency (monitor at 100 MHz).
+Please check open boundary settings to ensure accurate monitor results for the
+lowest frequency of interest.
+
+--------------------------------------------------------------------------------
+
+Solver started at: 05:12 PM Sunday, 18. November 2018
+
+  Module:  Time Domain: S-Parameter (Win 64)
+  Version: 2015.0 Release from 2015-01-16 (change 344899)
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+======================================================================
+ Solver cycle: 1
+======================================================================
+
+Stimulation at discrete port 1 
+
+
+--------------------------------------------------------------------------------
+*** Warning ***
+
+2018 Nov 18: 17:12:03: current system memory usage reached 85%
+
+--------------------------------------------------------------------------------
+Units settings: 
+
+  Dimensions: cm
+  Frequency:  MHz
+  Time:       ns
+
+--------------------------------------------------------------------------------
+Number of mesh faces filled with PEC due to fill limit restrictions: 0
+
+--------------------------------------------------------------------------------
+Mesh statistics:
+
+   Hexahedral mesh type: FPBA [accuracy enhancement is enabled]
+
+   Parallelization type: domain decomposition
+      Number of parallel working threads: 1
+      Number of calculation domains used: 1
+
+
+--------------------------------------------------------------------------------
+Boundary conditions: 
+
+  YZsymmetry: none
+  XZsymmetry: none
+  XYsymmetry: none
+
+  Xmin: expanded open, 4 Layer, depth 49.1409 cm
+  Xmax: expanded open, 4 Layer, depth 52.2425 cm
+
+  Ymin: expanded open, 4 Layer, depth 49.1409 cm
+  Ymax: expanded open, 4 Layer, depth 49.1409 cm
+
+  Zmin: expanded open, 4 Layer, depth 58.8471 cm
+  Zmax: expanded open, 4 Layer, depth 48.8826 cm
+
+  PML-Type: Convolution PML
+
+--------------------------------------------------------------------------------
+Frequency settings: 
+
+  Fmin:    100
+  Fmax:    200
+  Nfsteps: 1001
+
+--------------------------------------------------------------------------------
+Port: 1
+
+  Discrete element, reference impedance = 50 ohms
+
+--------------------------------------------------------------------------------
+Field update statistics:
+
+  Number of components in total: 	62338
+  Number of lossy metal components:	40
+
+Subcycling state:      Automatically deactivated
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Steady state energy criterion met, solver finished successfully.
+
+--------------------------------------------------------------------------------
+Frequency domain results normalized to default signal.
+
+--------------------------------------------------------------------------------
+
+  ----------------------------------------------------------------------------
+                      Peak memory used (kB)         Free physical memory (kB) 
+                                                    At begin     Minimum      
+  ----------------------------------------------------------------------------
+  CAD preparation     16692                         2441380      2441380      
+  Matrices calc.      26676                         2425956      2418988      
+  Solver run total    124528                        2463736      2344084      
+  ----------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Solver Statistics:
+
+  Hardware:
+     Computer name:                 	ROBERT-DESKTOP 
+
+     Number of CPU threads:             4
+     hardware info:                  	hardware acceleration not activated
+
+  Number of mesh cells:             	9660
+  Excitation duration:              	7.10909750e+001 ns 
+  Calculation time for excitation:  	0      	s
+  Number of calculated pulse widths:	1.06285 
+  Steady state accuracy limit:      	-30	dB 
+  Simulated number of time steps:   	989    
+  Maximum number of time steps:     	18610  
+  Time step width:
+     without subcycles:             	7.63996807e-002 ns
+     used:                          	7.63996807e-002 ns
+
+  CAD preparation time:          	0      	s
+  Matrix calculation time:          	3      	s
+  Solver setup time:                	2      	s
+  Solver loop time:                 	0      	s
+  Solver post processing time:      	1      	s
+                                    	------------
+  Total solver time:                	6      	s
+
+--------------------------------------------------------------------------------
+
+  Adaptive port meshing time:       	0      	s
+  Total solver time (all cycles):   	6      	s
+                                    	------------
+  Total simulation time:            	6      	s
+
+--------------------------------------------------------------------------------
+Solver finished at: 05:12 PM Sunday, 18. November 2018
+
+
+--------------------------------------------------------------------------------
+Creating parametric 1D results.
+
+--------------------------------------------------------------------------------

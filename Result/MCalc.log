@@ -1,0 +1,85 @@
+ROBERT-DESKTOP: <<<<<<<<<<<<<<<<<<<<<<<<<<<
+                2018 Nov 18 (Sun): 17:12:03
+                <<<<<<<<<<<<<<<<<<<<<<<<<<<
+                
+ROBERT-DESKTOP: ======================
+                Mesher selection: FPBA
+                ======================
+                
+ROBERT-DESKTOP: ===============================
+                Processing CAD model
+                Version 2015.0 (build 20150116)
+                2018 Nov 18 (Sun): 17:12:04
+                ===============================
+                
+ROBERT-DESKTOP: sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+                The point accuracy has been changed from 0.00% to 75.00% after complexity analysis.
+                sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+                
+ROBERT-DESKTOP: ssssssssssssssssssssssssssssssssssss
+                The point accuracy is set to 75.00%.
+                ssssssssssssssssssssssssssssssssssss
+                
+==================================================================================================
+== CST Matrix Calculation Priority Log                                                          ==
+==================================================================================================
+ 
+Priorities are sorted in ascending order beginning with the lowest priority
+ 
+Priority:   3, shape   1: component1:rod1, material: Aluminum
+Priority:   3, shape   2: component1:rod1_1, material: Aluminum
+Priority:   4, shape   3: discrete_face_port:1, material: PEC
+ 
+==================================================================================================
+ 
+ROBERT-DESKTOP: =======================
+                Finished CAD processing
+                =======================
+                
+ROBERT-DESKTOP: ===============================
+                Processing CAD model
+                Version 2015.0 (build 20150116)
+                2018 Nov 18 (Sun): 17:12:04
+                ===============================
+                
+ROBERT-DESKTOP: ssssssssssssssssssssssssssssssssssss
+                The point accuracy is set to 75.00%.
+                ssssssssssssssssssssssssssssssssssss
+                
+ROBERT-DESKTOP: =======================
+                Finished CAD processing
+                =======================
+                
+ROBERT-DESKTOP: 1xN000: <<<<<<<<<<<<<<<<<<<<<<<<<<<
+                        2018 Nov 18 (Sun): 17:12:04
+                        <<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+ROBERT-DESKTOP: 1xN000: =======================================
+                        Matrix computation (FPBA)
+                        	[FPBA accuracy enhancement is enabled]
+                        Version 2015.0 (build 20150116)
+                        2018 Nov 18 (Sun): 17:12:04
+                        =======================================
+
+ROBERT-DESKTOP: 1xN000: sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+                        The point accuracy has been changed from 0.00% to 75.00% after complexity analysis.
+                        sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+
+ROBERT-DESKTOP: 1xN000: ssssssssssssssssssssssssssssssssssss
+                        The point accuracy is set to 75.00%.
+                        ssssssssssssssssssssssssssssssssssss
+
+ROBERT-DESKTOP: 1xN000: ==================================
+                        Finished matrix computation (FPBA)
+                        ==================================
+
+ROBERT-DESKTOP: 1xN000: >>>>>>>>>>>>>>>>>>>>>>>>>>>
+                        2018 Nov 18 (Sun): 17:12:05
+                        >>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+ROBERT-DESKTOP: >>>>>>>>>>>>>>>>>>>>>>>>>>>
+                2018 Nov 18 (Sun): 17:12:06
+                >>>>>>>>>>>>>>>>>>>>>>>>>>>
+                

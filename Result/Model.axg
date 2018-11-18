@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CSTAuxiliaryGeometry version="20140129">
+  <BoundingBox name="BoundingBox">
+    <BoxBody position="-51.11540985107 -50.11540985107 -77.79531097412" dimension="146.9015808105 100.2308197021 183.1607208252"/>
+  </BoundingBox>
+  <DiscreteFacePort name="Ports\port1">
+    <LineSet points="-0.8500000238419 0 0 -0.4250000119209 -1.836970278878e-017 -0.870096206665"/>
+    <PortBody dimension="10 10 10" direction="0.4250000119209 -1.836970278878e-017 -0.870096206665" position="-0.6374999880791 -9.184851394389e-018 -0.4350481033325" text="1"/>
+    <Port points="-0.8625000119209 3.344006335549e-017 -0.5649518966675 -0.8617393374443 0.01741393655539 -0.5645127296448 -0.8594675660133 0.03459237888455 -0.5632011294365 -0.8557153940201 0.05130302160978 -0.5610347986221 -0.8505336642265 0.0673198774457 -0.5580431222916 -0.8439923524857 0.08242634683847 -0.554266512394 -0.8361799716949 0.09641814231873 -0.5497560501099 -0.8272022008896 0.1091060489416 -0.5445727109909 -0.8171803355217 0.120318479836 -0.5387865900993 -0.8062499761581 0.1299038082361 -0.5324759483337 -0.7945590019226 0.1377324163914 -0.5257261395454 -0.7822653651237 0.1436984241009 -0.5186284184456 -0.7695354223251 0.1477211564779 -0.5112788081169 -0.7565413117409 0.1497462242842 -0.5037766098976 -0.7434586882591 0.1497462242842 -0.4962233901024 -0.7304645776749 0.1477211564779 -0.4887212216854 -0.7177346348763 0.1436984241009 -0.4813715815544 -0.7054409980774 0.1377324163914 -0.4742738604546 -0.6937500238419 0.1299038082361 -0.4675240516663 -0.6828196644783 0.120318479836 -0.4612134099007 -0.6727977991104 0.1091060489416 -0.4554272890091 -0.6638200283051 0.09641814231873 -0.4502439498901 -0.6560076475143 0.08242634683847 -0.445733487606 -0.6494663357735 0.0673198774457 -0.4419568479061 -0.6442846059799 0.05130302160978 -0.4389651715755 -0.6405324339867 0.03459237888455 -0.4367988705635 -0.6382606625557 0.01741393655539 -0.4354872703552 -0.6374999880791 8.926827291554e-018 -0.4350481033325 -0.6382606625557 -0.01741393655539 -0.4354872703552 -0.6405324339867 -0.03459237888455 -0.4367988705635 -0.6442846059799 -0.05130302160978 -0.4389651715755 -0.6494663357735 -0.0673198774457 -0.4419568479061 -0.6560076475143 -0.08242634683847 -0.445733487606 -0.6638200283051 -0.09641814231873 -0.4502439498901 -0.6727977991104 -0.1091060489416 -0.4554272890091 -0.6828196644783 -0.120318479836 -0.4612134099007 -0.6937500238419 -0.1299038082361 -0.4675240516663 -0.7054409980774 -0.1377324163914 -0.4742738604546 -0.7177346348763 -0.1436984241009 -0.4813715815544 -0.7304645776749 -0.1477211564779 -0.4887212216854 -0.7434586882591 -0.1497462242842 -0.4962233901024 -0.7565413117409 -0.1497462242842 -0.5037766098976 -0.7695354223251 -0.1477211564779 -0.5112788081169 -0.7822653651237 -0.1436984241009 -0.5186284184456 -0.7945590019226 -0.1377324163914 -0.5257261395454 -0.8062499761581 -0.1299038082361 -0.5324759483337 -0.8171803355217 -0.120318479836 -0.5387865900993 -0.8272022008896 -0.1091060489416 -0.5445727109909 -0.8361799716949 -0.09641814231873 -0.5497560501099 -0.8439923524857 -0.08242634683847 -0.554266512394 -0.8505336642265 -0.0673198774457 -0.5580431222916 -0.8557153940201 -0.05130302160978 -0.5610347986221 -0.8594675660133 -0.03459237888455 -0.5632011294365 -0.8617393374443 -0.01741393655539 -0.5645127296448 -0.8625000119209 -4.029796304254e-016 -0.5649518966675"/>
+  </DiscreteFacePort>
+  <Materials>
+    <Material name="Wire^Material">
+      <Color value="0 0.5019608139992 1"/>
+      <Transparency value="0"/>
+      <LineStrength value="3"/>
+      <Lit value="1"/>
+      <Shininess value="5"/>
+      <DepthTest value="1"/>
+      <ClipMode value="ClipAbove"/>
+    </Material>
+    <Material name="port^Material">
+      <Color value="1 0 0"/>
+      <Transparency value="0"/>
+      <LineStrength value="3"/>
+      <Lit value="1"/>
+      <Shininess value="5"/>
+      <DepthTest value="1"/>
+      <ClipMode value="ClipAbove"/>
+    </Material>
+    <Material name="current^Material">
+      <Color value="1 0.5019608139992 0.5019608139992"/>
+      <Transparency value="0"/>
+      <LineStrength value="3"/>
+      <Lit value="1"/>
+      <Shininess value="5"/>
+      <DepthTest value="1"/>
+      <ClipMode value="ClipAbove"/>
+    </Material>
+    <Material name="BeamWire^Material">
+      <Color value="0 0.5019608139992 1"/>
+      <Transparency value="0"/>
+      <LineStrength value="5"/>
+      <Lit value="1"/>
+      <Shininess value="5"/>
+      <DepthTest value="1"/>
+      <ClipMode value="ClipAbove"/>
+    </Material>
+    <Material name="BeamInt^Material">
+      <Color value="1 0.5 0"/>
+      <Transparency value="0"/>
+      <LineStrength value="2"/>
+      <Lit value="1"/>
+      <Shininess value="5"/>
+      <DepthTest value="1"/>
+      <ClipMode value="ClipAbove"/>
+    </Material>
+    <Material name="voltage^Material">
+      <Color value="0 0.5019608139992 0.5019608139992"/>
+      <Transparency value="0"/>
+      <LineStrength value="3"/>
+      <Lit value="1"/>
+      <Shininess value="5"/>
+      <DepthTest value="1"/>
+      <ClipMode value="ClipAbove"/>
+    </Material>
+    <Material name="cone^Material">
+      <Color value="1 1 1"/>
+      <Transparency value="0"/>
+      <LineStrength value="1"/>
+      <Lit value="1"/>
+      <Shininess value="5"/>
+      <DepthTest value="1"/>
+      <ClipMode value="ClipAbove"/>
+    </Material>
+    <Material name="Coil^Material">
+      <Color value="1 0.5019608139992 0.5019608139992"/>
+      <Transparency value="0.8000000119209"/>
+      <LineStrength value="1"/>
+      <Lit value="1"/>
+      <Shininess value="5"/>
+      <DepthTest value="1"/>
+      <ClipMode value="ClipAbove"/>
+    </Material>
+    <Material name="MultiPin^Material">
+      <Color value="1 0 0"/>
+      <Transparency value="0"/>
+      <LineStrength value="1"/>
+      <Lit value="1"/>
+      <Shininess value="5"/>
+      <DepthTest value="1"/>
+      <ClipMode value="ClipAbove"/>
+    </Material>
+    <Material name="material^cs_node">
+      <Color value="0.3019607961178 0.3019607961178 0.3019607961178"/>
+      <Transparency value="0"/>
+      <LineStrength value="1"/>
+      <Lit value="1"/>
+      <Shininess value="5"/>
+      <DepthTest value="1"/>
+      <ClipMode value="ClipAbove"/>
+    </Material>
+    <Material name="material^cs_node_grounded">
+      <Color value="-1 -1 -1"/>
+      <Transparency value="0"/>
+      <LineStrength value="1"/>
+      <Lit value="1"/>
+      <Shininess value="5"/>
+      <DepthTest value="1"/>
+      <ClipMode value="ClipAbove"/>
+    </Material>
+    <Material name="material^cs_node_splice">
+      <Color value="-1 -1 -1"/>
+      <Transparency value="0"/>
+      <LineStrength value="1"/>
+      <Lit value="1"/>
+      <Shininess value="5"/>
+      <DepthTest value="1"/>
+      <ClipMode value="ClipAbove"/>
+    </Material>
+    <Material name="material^cs_segments">
+      <Color value="0.6000000238419 0.6000000238419 0.6000000238419"/>
+      <Transparency value="0.5"/>
+      <LineStrength value="3"/>
+      <Lit value="1"/>
+      <Shininess value="5"/>
+      <DepthTest value="1"/>
+      <ClipMode value="ClipAbove"/>
+    </Material>
+    <Material name="material^cs_segments_loaded">
+      <Color value="-1 -1 -1"/>
+      <Transparency value="0.5"/>
+      <LineStrength value="3"/>
+      <Lit value="1"/>
+      <Shininess value="5"/>
+      <DepthTest value="1"/>
+      <ClipMode value="ClipAbove"/>
+    </Material>
+    <Material name="PickedLines^Material">
+      <Color value="1 0 0"/>
+      <Transparency value="0"/>
+      <LineStrength value="5"/>
+      <Lit value="1"/>
+      <Shininess value="5"/>
+      <DepthTest value="1"/>
+      <ClipMode value="NoClip"/>
+    </Material>
+    <Material name="PickedPoints^Material">
+      <Color value="1 0 0"/>
+      <Transparency value="0"/>
+      <LineStrength value="5"/>
+      <Lit value="1"/>
+      <Shininess value="5"/>
+      <DepthTest value="1"/>
+      <ClipMode value="NoClip"/>
+    </Material>
+  </Materials>
+</CSTAuxiliaryGeometry>

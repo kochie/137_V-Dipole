@@ -1,0 +1,6 @@
+With MeshSettings
+     With .ItemMeshSettings ("solid$component1:rod1_1")
+          .SetMeshType "All" 
+          .Set "Transform", "-0.5", "0", "0.866025", "0", "1", "0", "-0.866025", "0", "-0.5" 
+     End With
+End With
